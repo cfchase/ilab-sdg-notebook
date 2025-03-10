@@ -48,6 +48,8 @@ Once this has uploaded, from the JupiterLab terminal, run
 
 ## Run through the notebook
 
+Open the notebook: `sdg-notebook\sdg_demo.ipynb`
+
 Follow the instructions in the notebook.
 
 Once you are complete, you should have a file `sdg_demo_output\phase10_train.jsonl` which is the generated training data for InstructLab alignment

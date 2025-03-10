@@ -50,5 +50,5 @@ Once this has uploaded, from the JupiterLab terminal, run
 
 Follow the instructions in the notebook.
 
-Once you are complete, you should have a file 
+Once you are complete, you should have a file `sdg_demo_output\phase10_train.jsonl`
 

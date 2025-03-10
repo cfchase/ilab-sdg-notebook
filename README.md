@@ -9,7 +9,7 @@
 
 ## Creating the workbench
 
-Create a workbench using the `Standard Data Science` image with a container size of `medium`, accelorator: `None`
+Create a workbench using the `Standard Data Science` image with a container size of `medium`, accelerator: `None`
 
 Create two environment variables using the endpoint url and API key from the Mixtral-8x7B-Instruct application.
 

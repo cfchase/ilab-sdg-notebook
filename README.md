@@ -7,6 +7,12 @@
 * Github access token with rights to read from repos: https://github.com/settings/tokens
 * Download the RHELAI 1.4.1 skills.jsonl file from https://drive.google.com/file/d/1q8Rxcat5dZxXP-LqgPSCUsyttyAn6aLJ/view?usp=sharing
 
+## Accessing the shared RHOAI BU Cluster
+
+* Connect to the Shared RHOAI BU cluster: red.ht/rhoai-bu-cluster
+* Log in with the `RedHat-Google-Auth` authentication
+* If you don't yet have a project, go ahead and create one.
+
 ## Creating the workbench
 
 Create a workbench using the `Standard Data Science` image with a container size of `medium`, accelerator: `None`
@@ -24,7 +30,7 @@ The second environment variable should be a Secret -> Key / Value
 ![image](assets/workbench-env.png)
 
 
-## Prepairing the environment
+## Preparing the environment
 
 Once the workbench it started, you will need to checkout this repository first.
 

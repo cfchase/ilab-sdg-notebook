@@ -9,7 +9,7 @@
 
 ## Accessing the shared RHOAI BU Cluster
 
-* Connect to the Shared RHOAI BU cluster: red.ht/rhoai-bu-cluster
+* Connect to the Shared RHOAI BU cluster: https://red.ht/rhoai-bu-cluster
 * Log in with the `RedHat-Google-Auth` authentication
 * If you don't yet have a project, go ahead and create one.
 

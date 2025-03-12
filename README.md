@@ -1,4 +1,4 @@
-# Jupiter notebook for running SDG
+# Jupyter notebook for running SDG
 
 ## Pre-requisites
 
@@ -26,7 +26,7 @@ The second environment variable should be a Secret -> Key / Value
 
 ## Prepairing the environment
 
-Once the workbench it started, you will need to checkout this repository first.  
+Once the workbench it started, you will need to checkout this repository first.
 
 From the terminal run
 
@@ -36,15 +36,15 @@ You will need to enter your Github credentials (username and token)
 
 ## Upload the RHEL AI 1.4.1.zip file
 
-From the JupiterLab file explorer, navigate to the `sdg-notebook` folder and click on the "Upload Files" icon.  
+From the JupyterLab file explorer, navigate to the `sdg-notebook` folder and click on the "Upload Files" icon.
 
 Select the file `1.4.1.zip` from your local machine.
 
-Once this has uploaded, from the JupiterLab terminal, run 
+Once this has uploaded, from the JupyterLab terminal, run
 
 `cd /opt/app-root/src/sdg-notebook`
 
-`unzip 1.4.1.zip` 
+`unzip 1.4.1.zip`
 
 ## Run through the notebook
 

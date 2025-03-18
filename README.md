@@ -56,12 +56,13 @@ Once this has uploaded, from the JupyterLab terminal, run
 
 There are two versions of the demo notebooks.
 
-* sdg_demo.ipynb: Use this notebook if you are working with PDF files.
+
 * sdg_demo_md.ipynb: Use this notebook if you are working with MD files.
+* sdg_demo_pdf.ipynb: Use this notebook if you are working with PDF files.
 
 ## Run through the notebook
 
-Open the notebook: `sdg-notebook\sdg_demo_md.ipynb` (or sdg_demo.ipynb)
+Open the notebook: `sdg-notebook\sdg_demo_md.ipynb` (or sdg_demo_pdf.ipynb)
 
 Follow the instructions in the notebook.
 

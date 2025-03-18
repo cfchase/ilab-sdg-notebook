@@ -52,9 +52,16 @@ Once this has uploaded, from the JupyterLab terminal, run
 
 `unzip 1.4.1.zip`
 
+## Choosing which notebook to run
+
+There are two versions of the demo notebooks.
+
+* sdg_demo.ipynb: Use this notebook if you are working with PDF files.
+* sdg_demo_md.ipynb: Use this notebook if you are working with MD files.
+
 ## Run through the notebook
 
-Open the notebook: `sdg-notebook\sdg_demo.ipynb`
+Open the notebook: `sdg-notebook\sdg_demo_md.ipynb` (or sdg_demo.ipynb)
 
 Follow the instructions in the notebook.
 

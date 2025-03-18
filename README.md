@@ -21,7 +21,7 @@ Create two environment variables using the endpoint url and API key from the Mix
 
 The first environment variable should be a Config Map -> Key / Value
 * value: MIXTRAL_URL
-* key: Endpoint url
+* key: Endpoint url  <b>(You need to add /v1 to the end of the URL)</b>
 
 The second environment variable should be a Secret -> Key / Value
 * value: MIXTRAL_TOKEN

@@ -1,0 +1,8 @@
+langchain-text-splitters
+datasets
+rich
+docling>=2.8.3
+click>=8.1.7,<9.0.0
+tabulate
+transformers
+python-dotenv

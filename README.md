@@ -2,9 +2,7 @@
 
 ## Pre-requisites
 
-* You will need to be a collaborator on the https://github.com/Red-Hat-AI-Innovation-Team/SDG-Research repo, reach out to `Abhishek Bhandwaldar` to get access.
 * Setup a MaaS application using [Mixtral-8x7B-Instruct-v0.1](https://maas.apps.prod.rhoai.rh-aiservices-bu.com/admin/applications/new?service_id=mixtral-8x7b-instruct-v0-1), you will need to use this endpoint url and API Key
-* Github access token with rights to read from repos: https://github.com/settings/tokens
 * Download the RHELAI 1.4.1 skills.jsonl file from https://drive.google.com/file/d/1q8Rxcat5dZxXP-LqgPSCUsyttyAn6aLJ/view?usp=sharing
 
 ## Accessing the shared RHOAI BU Cluster

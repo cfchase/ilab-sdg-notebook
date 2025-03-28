@@ -6,9 +6,12 @@ USER 0
 WORKDIR /workspace
 
 # Clone and install SDG from SDG Research (pre-installed dependencies)
-RUN git clone --depth 1 https://github.com/Red-Hat-AI-Innovation-Team/SDG-Research.git && \
-    pip install --no-cache-dir -r SDG-Research/requirements.txt && \
-    pip install --no-cache-dir SDG-Research/ && \
+RUN git clone https://github.com/Red-Hat-AI-Innovation-Team/SDG-Research.git && \
+    cd SDG-Research && \
+    git checkout knowledge-demo-notebooks && \
+    pip install --no-cache-dir -r ./requirements.txt && \
+    pip install --no-cache-dir . && \
+    cd .. && \
     rm -rf SDG-Research  # Clean up to reduce image size
 
 # Create an init script to clone the repo and install requirements if needed

@@ -1,0 +1,122 @@
+version: 3
+domain: Banking and finance
+created_by: James Harmison <jharmiso@redhat.com>
+seed_examples:
+- context: |
+    This Agreement is between each owner of an eligible account, a person applying for an eligible account, or authorized representative appointed or entitled to online access on another person's behalf ('you' or 'your') and Parasol Financial, N.A. (Parasol Financial).  This Agreement governs your use of any online or mobile banking services maintained by Parasol Financial and accessible through parasolfinancial.com using a personal computer or a mobile device, including a smartphone, tablet, or any other eligible handheld or wearable communication device (the 'Service(s)').
+
+    Under the terms of this Agreement, you may use the Services to obtain financial products and services, access and view account information, and, for certain accounts, move money electronically and perform authorized transactions, for eligible U.S.-based Parasol Financial consumer and small business accounts and affiliate accounts linked to the Service, such as those at Parasol Wealth Management Services Incorporated ("Parasol").
+
+    When used in the Agreement, the term 'small business' includes sole proprietors, non-consumer business entities, and individual owners of the business, unless the context indicates otherwise. If you are a small business customer, additional or different terms and conditions applicable to the Services, as well as additional Services available exclusively to small business customers, are included in the Business Services Addendum, which is a part of this Agreement.
+
+  questions_and_answers:
+  - question: |
+      As a sole propeitor, am I subject to the terms applicable to a small business?
+    answer: |
+      Yes, when used in the Agreement, the term 'small business' includes sole proprietors, non-consumer business entities, and individual owners of the business, unless the context indicates otherwise.
+  - question: |
+      Am I subject to the online service agreement as a user of the mobile phone app?
+    answer: |
+      Yes, the Parasol Financial Online Banking Service Agreement governs your use of any online or mobile banking services maintained by Parasol Financial and accessible through parasolfinancial.com using a personal computer or a mobile device, including a smartphone, tablet, or any other eligible handheld or wearable communication device.
+  - question: |
+      If I go in to a Parasol Financial branch and work with a customer service agent, am I subject to the Online Banking Service Agreement?
+    answer: |
+      No, You're only subject to the Parasol Financial Online Banking Service Agreement as a user of online or mobile banking services maintained by Parasol Financial and accessible through parasolfinancial.com using a personal computer or a mobile device, including a smartphone, tablet, or any other eligible handheld or wearable communication device.
+- context: |
+    We may also send credit card, business line of credit and/or debit card security text alerts to your mobile phone number when applicable. Text alerts will be delivered from a short code number which are Free to End User (FTEU), however, data rates may apply depending on your mobile carrier plan. You can opt out of all security alerts at any time by sending the word STOP to any of the short codes below. Opting out of any of the alerts will automatically STOP all security alerts via text message from being sent to you. If you text STOP, you will receive an additional confirmation text acknowledging our receipt of your request. To opt back into receiving all security text alerts, text UNDO to any of the short codes listed below or call us at the number on the back of your card. If you need further assistance text HELP to any of the following codes for more information.
+
+    | Product        |   Short Code | Toll Free Number   |
+    |----------------|--------------|--------------------|
+    | Credit card    |       50000 | 500.867.5307       |
+    | ATM/debit card |        50001 | 500.867.5306       |
+    | Mobile Wallet  |        50002 | 500.867.5305       |
+    | Digital fingerprint                          |   50003 | 800.867.5304   |
+    | Account takeover                             |   50004 | 800.867.5303   |
+    | Zelle, Wires, ACH and Bill Pay             |   50005 | 800.867.5302   |
+    | Rewards redemption                           |   50006 | 500.867.5307   |
+    | Account opening                              |   50007 | 800.867.5301   |
+    | ACH/balance transfer                         |   50008 | 800.867.5300   |
+    | Checking and/or money market savings account |   50009 | 800.867.5299   |
+    | SMS on demand                                |   50010 | 800.867.5309   |
+    | Credit card application                      |   50011 | 800.867.5298   |
+    | Small Business credit card                   |   50012 | 800.867.5308   |
+  questions_and_answers:
+  - question: |
+      What is the Toll free number for Credit Card enquiries?
+    answer: |
+      The Toll Free Number for Credit Card enquiries is 500.867.5307
+  - question: |
+      What is the short code number for Mobile Wallet enquiries?
+    answer: |
+      The short code number for Mobile Wallet enquiries is 50002
+  - question: |
+      What is the Toll free number for Credit card application?
+    answer: |
+      The Toll free number for Credit card applications is 800.867.5298
+- context: |
+    ## K. Limits
+
+    The following limits apply to Zelle transfers. <sup>1</sup>
+
+    |                             | Every 24 hours            | Every 7 days              | Every Month                |
+    |-----------------------------|---------------------------|---------------------------|----------------------------|
+    | Consumer                    | $3500 / 10 transactions   | $10,000 / 30 transactions | $20,000 / 60 transactions  |
+    | Small Business <sup>2</sup> | $15,000 / 20 transactions | $45,000 / 60 transactions | $60,000 / 120 transactions |
+
+    1. Private Bank and Parasol Wealth Management clients may be subject to higher dollar limits and total transfers. Please contact your advisor for more information on your limits.
+
+    2. Zelle send limits are set at the customer profile (User ID) and apply to all accounts visible in the 'From' dropdown when initiating a Zelle payment.  If you are a small business customer and are not receiving the small business limits, make sure you are logged in with your small business User ID.
+
+    The minimum transfer amount for any single Zelle transfer is $1.00. There are no receiving limits for Zelle transfers.
+  questions_and_answers:
+  - question: |
+      What is the dollar limit for consumer Zelle transactions in a 24 hour period?
+    answer: |
+      The limit is $3500 every 24 hours for consumer accounts, and $15,000 for small business accounts.
+  - question: |
+      What is the limit on the number of Zelle transactions in a 7 day period for consumer transactions?
+    answer: |
+      The limit is 30 transactions every 7 days.
+  - question: |
+      What is the receiving limit or Zelle transfers?
+    answer: |
+      There is no receiving limit for Zelle transfers.
+- context: |
+    ## 6. ACH and Wire Transfers
+
+    Transfers sent outside of the United States that are initiated by consumers primarily for personal, family or household purposes ("Remittance Transfers"), are governed by federal law (see section 6.F below). This Agreement governs not only Remittance Transfers, but also certain other transfers between your linked accounts at Parasol Financial and your accounts at other financial institutions, or to someone else's account, using an account number and financial institution identifier.
+
+    For transfers other than Remittance Transfers, including general questions, requests for cancellation of payments and transfers, or to report unauthorized transactions, please call us at 800.867.5309 or 800.867.5306 for small business accounts, available Monday through Friday from 7:00 a.m. to 10:00 p.m., and Saturday and Sunday from 8:00 a.m. to 5:00 p.m., local time. From outside of the continental U.S., call us collect at 500.867.5309 .
+  questions_and_answers:
+  - question: |
+      If my wire transfer is to a family member for personal reasons, am I subject to federal law?
+    answer: |
+      If your transfer is sent outside of the United States, for remittance purposes (personal, family, or household purposes), it is goverened by federal law. For transfers other than Remittance Transfers, including general questions, requests for cancellation of payments and transfers, or to report unauthorized transactions, please call us at 800.867.5309 or 800.867.5306 for small business accounts, available Monday through Friday from 7:00 a.m. to 10:00 p.m., and Saturday and Sunday from 8:00 a.m. to 5:00 p.m., local time. From outside of the continental U.S., call us collect at 500.867.5309 .
+  - question: |
+      If I have a question about cancelling an ACH payment, who can I talk to?
+    answer: |
+      For transfers other than Remittance Transfers, including general questions, requests for cancellation of payments and transfers, or to report unauthorized transactions, please call us at 800.867.5309 or 800.867.5306 for small business accounts, available Monday through Friday from 7:00 a.m. to 10:00 p.m., and Saturday and Sunday from 8:00 a.m. to 5:00 p.m., local time. From outside of the continental U.S., call us collect at 500.867.5309 .
+  - question: |
+      What kinds of online transfers does are covered by the Parasol Financial Online Banking Service Agreement?
+    answer: |
+      Remittance transfers and certain other transfers between your linked accounts at Parasol Financial and your accounts at other financial institutions, or to someone else's account, using an account number and financial institution identifier.
+- context: |
+    When you attempt to schedule a payment, we will inform you of the earliest available delivery date. To assure timely payment, you must schedule payments, and your account must be in good standing and have sufficient available funds in the designated deposit account to cover the payment, at least five (5) bank business days before the payment due date, NOT the date after which late payment fees may be assessed.
+
+    If an account does not have sufficient available funds on the scheduled date, we may elect not to initiate one or more of the transfers. If we do elect to initiate the transfer, which may involve one or more attempts on subsequent business days, it may cause an overdraft in your account in which case you shall be fully responsible for the overdraft and any Overdraft Item Fees, as set forth in your Deposit Agreement, as well as all late fees, interest charges or other action taken by the Payee. If an account has sufficient funds on the scheduled date and we initiate the transfer but the account does not have sufficient funds when the payment posts to your account, we will not charge an insufficient funds fee to your deposit account, but you may incur late fees, interest charges or other action taken by the Payee.
+
+    If we fail to process a payment in accordance with your properly completed instructions, we will reimburse you for any late payment fees. As indicated above, some payments may be made by a personal check. Since we can't predict the exact date that a personal check will be presented to us for payment, please make sure you have sufficient funds in your account beginning a few days before your scheduled delivery date and keep such funds available until the payment is deducted from your account.
+  questions_and_answers:
+  - question: |
+      When will I know when my scheduled payment will be delivered?
+    answer: |
+      When you attempt to schedule a payment, we will inform you of the earliest available delivery date.
+  - question: |
+      What's the latest I should schedule a bill payment?
+    answer: |
+      To assure timely payment, you must schedule payments, and your account must be in good standing and have sufficient available funds in the designated deposit account to cover the payment, at least five (5) bank business days before the payment due date, NOT the date after which late payment fees may be assessed.
+  - question: |
+      You failed to process a payment even though I followed the rules. I was charged a late payment fee. What happens now?
+    answer: |
+      If we fail to process a payment in accordance with your properly completed instructions, we will reimburse you for any late payment fees.
+document_outline: Resource guide for Parasol Financial employee policies.

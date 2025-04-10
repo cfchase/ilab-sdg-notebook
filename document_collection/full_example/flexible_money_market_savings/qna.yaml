@@ -1,0 +1,122 @@
+version: 3
+domain: Banking and finance
+created_by: James Harmison <jharmiso@redhat.com>
+seed_examples:
+- context: |
+    ## Overview of Flexible Money Market Savings key policies and fees
+
+    ## Your Flexible Money Market Savings Account
+    |     |  |
+    | -------- | ------- |
+    | FDIC Coverage | This account is insured by the Federal Deposit Insurance Corporation (FDIC) and is backed by the U.S. government. The standard insurance amount is $250,000 per depositor, per insured bank, for each account ownership category. Refer to FDIC.gov/edie for more information. |
+
+
+    |     |  |  |
+    | -------- | ------- |------- |
+    | Monthly Maintenance Fee | $12.00 each month | You can avoid the Monthly Maintenance Fee when you meet one of the following balance requirements during each statement period: Maintain a minimum daily balance of $2,500 or more, OR Link your account to your Parasol Financial Interest Checking or Parasol Financial Flexible account (waiver applies to first 4 savings accounts), OR Are enrolled in the Parasol Loyalty 1 program (waiver applies to first 4 savings accounts) |
+  questions_and_answers:
+  - question: |
+      What is the monthly maintenance fee of the Flexible Money Market Savings Account?
+    answer: |
+      The monthly maintenance fee of the Flexible Money Market Savings Account is $12.00 each month
+  - question: |
+      How can you avoid the monthly maintenance fee for the Flexible Money Market Savings Account?
+    answer: |
+      The monthly maintenance fee for the Flexible Money Market Savings Account can be avoided by maintaining a minimum daily balance of $2,500 or more, linking your account to your Parasol Financial Interest Checking or Parasol Financial Flexible account (for up to four savings accounts), or enrolling in the Parasol Loyalty program (for up to four savings accounts)
+  - question: |
+      Is the Flexible Money Market Savings insured by the Federal Deposit Insurance Corporation (FDIC)?
+    answer: |
+      Yes, the Flexible Money Market Savings insured is insured by the Federal Deposit Insurance Corporation (FDIC)
+- context: |
+    ## When your deposits are available
+
+    Cash, direct deposits, wire transfers: On the day we receive them.
+
+    Checks: Usually the next business day if deposited before the financial center or ATM cutoff time.
+
+    Mobile Check Deposit: Usually the next business day if deposited by applicable cutoff times (please refer to 'Help and Support' in Mobile App for additional details and terms and conditions).
+
+    If we place a hold on your deposit, we'll let you know the hold reason and when funds will be available for you to use. This is typically provided at the time of deposit but may also be mailed later. Deposits greater than $5,000 and checks deposited within the first 30 days of your account opening may be held longer.
+  questions_and_answers:
+  - question: |
+      When are check deposits available on a Rewards Money and Market Savings account?
+    answer: |
+      Checks are usually available the next business day, if deposited before the financial center or ATM cutoff time.
+  - question: |
+      When are cash deposits available on a Rewards Money and Market Savings account?
+    answer: |
+      Cash deposits are available on the day they are received.
+  - question: |
+      When are mobile check deposits available on a Rewards Money and Market Savings account?
+    answer: |
+      Mobile check deposits are usually available the next business day, if deposited by applicable cutoff times.
+- context: |
+    ## Additional Services
+
+    |  Service          |  Fee   |     Details                                                                                          |
+    |--------------------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Parasol Financial ATMs           | No ATM fee   | For deposits, withdrawals, transfers or balance inquiries                                                                                                       |
+    | Non-Parasol Financial ATMs       | $2.50        | In the U.S., plus any fee charged by the ATM's operator                                                                                                         |
+    |                                | $5.00        | Outside the U.S., plus any fee charged by the ATM's operator                                                                                                    |
+    | Statement copies (each)        | $5.00        | You can avoid this fee by viewing and printing your available statements in the Statements & Documents tab in Online Banking instead of ordering a copy from us |
+    | Stop payment fee               | $30.00       | For each check request                                                                                                                                          |
+    | Cashier's checks               | $10.00       | Per check, but this fee may be waived based on your relationship                                                                                                |
+    | Deposited item returned (each) | $12.00       | Domestic item                                                                                                                                                   |
+    |                                | $15.00       | Foreign item                                                                                                                                                    |
+
+    This Detailed Policies summarizes key policies and fees for this account. For more information about the terms that govern your account, please review your Personal Schedule of Fees and Deposit Agreement.
+  questions_and_answers:
+  - question: |
+      What is the ATM fee for using Parasol Financial ATMs for the Rewards Money and Market Savings account?
+    answer: |
+      There are no ATM fees for Parasol Financial ATMs for the Rewards Money and Market Savings account.
+  - question: |
+      What is the ATM fee for using Non-Parasol Financial ATMs for the Rewards Money and Market Savings account?
+    answer: |
+      There is a fee of $2.50 for using Non-Parasol Financial ATMs for the Rewards Money and Market Savings account, from inside the U.S. Outside the U.S., the fee is $5.00.
+  - question: |
+      What is the fee for a cashier's check from the Rewards Money and Market Savings account?
+    answer: |
+      There is a fee of $10 for a cashier's check from the Rewards Money and Market Savings account
+- context: |
+    ## Interest rate policy
+
+    |     |  |
+    | -------- | ------- |
+    | Interest rate and interest calculation | Your account has a variable interest rate, which means the interest rate may change. Interest rates for your account are set at our discretion and may change at any time without notice. To calculate interest, we apply a daily periodic rate to the collected balance in your account each day. We compound and pay any interest earned monthly. Interest is only paid in whole cents and we use standard rounding rules to calculate the amount. This means that an amount less than half of one cent is rounded down to zero, and an amount of half of one cent or more is rounded up to the next whole cent. |
+    | Interest rate booster | The interest rate booster is earned automatically when an account owner is enrolled in the Parasol Loyalty program. The booster increases the interest rate by at least 5%, 10% or 20% over the standard rate, and is based on the Parasol Loyalty tiers of Bronze, Silver and Gold, respectively. We may decide to pay a higher rate. |
+    | Where can I find the current interest rate? | You can find the current interest rate by checking parasolfinancial.com, calling the number on your account statement or visiting a financial center. |
+  questions_and_answers:
+  - question: |
+      Where can I find the interest rate currently applied to my Rewards Money Market account?
+    answer: |
+      You can find the interest rate at parasolfinancial.com of by calling the number on your account statement.
+  - question: |
+      Is the interest rate on a Rewards Money Market account fixed or variable?
+    answer: |
+      The interest rate on a Rewards Money Market is a variable interest rate, which means the interest rate may change.
+  - question: |
+      How is the interest rate booster earned on the Rewards Money Market account?
+    answer: |
+      The interest rate booster is earned automatically when an account owner is enrolled in the Parasol Loyalty program, and the amount varies based on your tier. We may decide to pay a higher rate.
+- context: |
+    | Item             | Fee         | Details    |                                                                                                                                                        |
+    |-------------------------------------|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Overdraft Item Fee                  | $35.00 per overdraft          | You pay a $35 Overdraft Item Fee for each item that we authorize and pay. An Overdraft Item fee can apply to a recurring debit card payment.                                                                  | No more than  4 Overdraft or Returned Item fees are charged per day. With Overdraft Protection, if you're about to overdraw your account, we'll automatically transfer available funds from your linked savings or eligible checking account. Only 1 transfer fee charged per day.                                                                                                                                                                                               |
+    | NSF: Returned Item Fee              | $35.00 per declined/ returned | You pay a $35 NSF: Returned Item Fee for each item that we decline or return unpaid. However, there's no NSF: Returned Item Fee for one-time or recurring declined debit card payments.                       | No more than  4 Overdraft or Returned Item fees are charged per day. With Overdraft Protection, if you're about to overdraw your account, we'll automatically transfer available funds from your linked savings or eligible checking account. Only 1 transfer fee charged per day.                                                                                                                                                        |
+    | Overdraft Protection 2 Transfer Fee | $12.00 per transfer           | With Overdraft Protection, if you're about to overdraw your account, we'll automatically transfer available funds from your linked savings or eligible checking account. Only 1 transfer fee charged per day. | No more than  4 Overdraft or Returned Item fees are charged per day. With Overdraft Protection, if you're about to overdraw your account, we'll automatically transfer available funds from your linked savings or eligible checking account. Only 1 transfer fee charged per day. |
+  questions_and_answers:
+  - question: |
+      What is the overdraft item fee for the Rewards Money Market account.
+    answer: |
+      The overdraft item fee is $35 per overdraft.
+  - question: |
+      What is the maximum number of overdraft item fees that can be charged per day on the Rewards Money Market account?
+    answer: |
+      No more than 4 Overdraft or Returned Item fees are charged per day.
+  - question: |
+      What is the Overdraft Protection Transfer Fee on the Rewards Money Market account?
+    answer: |
+      The Overdraft Protection Transfer Fee is $12 per transfer, but only one transfer fee is charged per day.
+document_outline: |
+  Details of Parasol Financial Rewards Money and Market Savings account, rules, and benefits

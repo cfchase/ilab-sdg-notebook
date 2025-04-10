@@ -1,0 +1,236 @@
+version: 3
+domain: Finance and banking enablement and knowledge
+created_by: James Harmison <jharmiso@redhat.com>
+seed_examples:
+- context: |
+    ## Banking has something for everyone
+
+    **Banking is its own ecosystem, and at Parasol Financial, this is what we offer. Other firms may offer similar opportunities.**
+
+    ### Banking, Markets & Finance
+    - Client management
+    - Financial advisory
+    - Investment banking
+    - Sales and trading
+    - Accounting
+    - Credit
+    - Wealth management
+    - Client services
+
+    ### Technology & Operations
+    - Data management
+    - Operations
+    - Web design
+    - Cyber security
+    - Software engineering and architecture
+    - Help desk
+
+    ### Business Support Services
+    - Human resources
+    - Research and development
+    - Program management
+    - Strategy and innovation
+    - Marketing
+    - Corporate social responsibility
+
+  questions_and_answers:
+
+  - question: What are some examples of roles in the Banking, Markets & Finance category
+      at Parasol Financial?
+
+    answer: Examples of roles in Banking, Markets & Finance include client management,
+      financial advisory, investment banking, sales and trading, accounting, credit,
+      wealth management, and client services.
+
+  - question: What types of roles are included in the Technology & Operations category?
+
+    answer: The Technology & Operations category includes roles such as data management,
+      operations, web design, cyber security, software engineering and architecture,
+      and help desk.
+
+  - question: What are some Business Support Services roles at a bank?
+
+    answer: Business Support Services roles at a bank can include human resources,
+      research and development, program management, strategy and innovation, marketing,
+      and corporate social responsibility.
+
+- context: |
+    ## Parasol Financial benefits
+
+    Parasol Financial offers a competitive benefits package to its employees, including tuition assistance and parental leave.
+
+    ## Supporting employees' financial, physical and emotional wellness
+
+    Comprehensive benefits and programs to support overall employee wellness and help them thrive.
+
+    ### Financial Wellness
+
+    Our company's purpose is to help make financial lives better through the power of every connection. So, it's especially important we support the financial wellness of our employees.
+
+    - Tuition Assistance
+    - Automatic enrollment in the 401k Plan
+    - Benefits Education & Planning Center
+    - Financial Wellness Tracker
+    - Better Money Habits
+    - Employee Financial Services
+    - Back-up and adult care services
+
+    ### Physical Wellness
+
+    We are helping employees address health risks and manage health care costs, including by providing robust health and insurance benefits as well as wellness and prevention resources.
+
+    - Enhanced benefits for employees and their families
+    - Cancer support benefit
+    - No-cost virtual medical consultation
+    - Get Active! employee fitness challenge
+    - Wellhub fitness classes and coaches
+    - Family planning and menopause support
+
+    ### Emotional Wellness
+
+    We've providing additional resources to help employees manage stress, build resiliency and pursue mindfulness, including the Life Event Services team.
+
+    - Employee Assistance Program
+    - Life Event Services
+    - Thrive Global
+    - Parental leave
+    - Paid time off
+    - Sabbatical program
+
+  questions_and_answers:
+  - question: What are some financial wellness benefits offered by Parasol Financial?
+    answer: Parasol Financial offers financial wellness benefits such as tuition assistance,
+      automatic enrollment in the 401k Plan, Benefits Education & Planning Center,
+      Financial Wellness Tracker, Better Money Habits, Employee Financial Services,
+      and back-up and adult care services.
+  - question: Does Parasol Financial offer any physical wellness benefits to its employees?
+    answer: >
+      Yes, Parasol Financial offers physical wellness benefits including enhanced
+      benefits for employees and their families, a cancer support benefit, no-cost
+      virtual medical consultation, the Get Active! employee fitness challenge, Wellhub
+      fitness classes and coaches, and family planning and menopause support.
+  - question: What kind of emotional wellness support does Parasol Financial provide?
+    answer: Parasol Financial provides emotional wellness support through the Employee
+      Assistance Program, Life Event Services, Thrive Global, parental leave, paid
+      time off, and a sabbatical program.
+  - question: Does Parasol Financial offer tuition assistance?
+    answer: Yes, Parasol Financial offers tuition assistance as part of its financial
+      wellness benefits.
+- context: |
+    # Technology & Operations roles
+
+    | Job title             | Job description                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+    |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Software Engineer     | **Software Engineers** design, develop and implement technology applications, platforms and systems to support customers, clients and bank employees around the world.  **Skills used on the job include** knowledge/training in contemporary programming languages such as Java, Python, JavaScript, HTML/CSS, .Net, Mobile iOS or Android and so on; basic understanding of relational database management systems; background in software development life cycle (SDLC) methodologies, especially Agile.  **The work environment involves** working in office as part of a technology team that codes, tests and deploys solutions. |
+    | Cyber Security Analyst| **Cyber Security Analysts** may address multiple cyber-related responsibilities, including detection and analysis of cyber-related suspicious security events, escalation of incidents for immediate response, containment, and recovery as well as providing technical support in the implementation of appropriate data security plans, procedures and products.  **Skills used on the job include** experience detecting and analyzing security events and/or responding to security incidents and knowledge of common cyber security analysis tools and techniques.  **The work environment involves** working independently and collaboratively within a larger cyber team. |
+
+  questions_and_answers:
+  - question: What is a responsibility of the Software engineer?
+    answer: Software Engineers design, develop and implement technology applications,
+      platforms and systems to support customers, clients and bank employees around
+      the world.
+  - question: What kind of skills should a software engineer have?
+    answer: Software engineers should have skills in programming languages such as
+      Java, Python, JavaScript, HTML/CSS, .Net, Mobile iOS or Android and so on; basic
+      understanding of relational database management systems
+  - question: What are the responsbilities of a Cyber Security Analyst?
+    answer: Cyber Security Analysts may address multiple cyber-related responsibilities,
+      including detection and analysis of cyber-related suspicious security events,
+      escalation of incidents for immediate response, containment, and recovery as
+      well as providing technical support in the implementation of appropriate data
+      security plans, procedures and products.
+- context: |
+    ## Take ownership
+
+    ## Introduction
+
+    Taking ownership is about demonstrating a willingness to help. The first person who interacts with a customer should take ownership of the customer's request and bring other people together as needed to address the question, need or concern.
+
+    ## Types of questions
+
+    - **Engage**
+        - "How may I help you?"
+        - "Tell me about your concern."
+    - **Discover**
+        - "What error messages are you receiving?"
+        - "I see a late fee was charged to the account on June 15. Is this the fee you are referring to?"
+    - **Resolve**
+        - "What were you purchasing?"
+        - "Were you at a particular location?"
+        - "Do you recall adding a tip onto the bill?"
+  questions_and_answers:
+  - question: |
+      What is taking ownership and demonstrating a willingness to help?
+    answer: |
+      Taking ownership is about demonstrating a willingness to help.  Parasol Financial teams should take ownership of the customer's request and bring other people together as needed to address the question, need or concern. You can start a conversation with 'Hello! How can I help you?' to engage with users, ask discovery questions to understand the customer's needs, like 'What is the issue you are facing?'. Once you know more, try to resolve and provide a solution.
+  - question: |
+      How do you resolve a customer's issue?
+    answer: |
+      If you need more context, ask for specifics and clarify. Ask questions like, 'Are you experiencing an issue with your checking or savings account?' or 'What was the specific purchase?' Once you have the information you need, you can provide a solution and try to resolve the issue. For example, ask 'Do you recall adding a tip onto the bill?' or' 'I can help you with that. Let me check your account details.'
+  - question: |
+      What are the types of questions I should ask a customer to take ownership of their problem?
+    answer: |
+      To take ownership effectively, ask questions that Engage (show proactive investivation), Discover (identify the root cause of problems), and Resolve (help work towards solving the customer's issue).
+- context: |
+    ## Confidence through strong words
+
+    | Words and phrases to avoid                    | Alternate suggestions                                                                               |
+    |-----------------------------------------------|-----------------------------------------------------------------------------------------------------|
+    | No                                            | What I can do …                                                                                     |
+    | No problem                                    | My pleasure / You're welcome                                                                        |
+    | Yeah                                          | Absolutely                                                                                          |
+    | Mmmm-hmmm                                     | Yes / That is correct                                                                               |
+    | Maybe                                         | I can … / I will …                                                                                  |
+    | It's required.                                | Another option to consider is …                                                                     |
+    | I don't know.                                 | Give me just one moment, and I can absolutely find that  answer for you.                            |
+    | I can't … / You can't …                       | What I can do … / What I can suggest is …                                                           |
+    | I'm sorry, but …  I don't have the authority. | What I would like to recommend …  Let me bring a colleague on the phone who can further  assist us. |
+    | You're wrong.                                 | I would like to ask a few questions so I may clearly  understand your need.                         |
+    | You should …                                  | What you may want to consider is …                                                                  |
+    | I think so.                                   | I will personally take care of this for you.                                                        |
+  questions_and_answers:
+  - question: |
+      What are some phrases to avoid using when speaking to a customer?
+    answer: |
+      Be respectful and helpful, ask questions, and be courteous. Avoid using filler phrases like 'Hmm' or shutting them down with a 'No' or 'You're wrong' or 'I can't help you with that.' Instead, say 'I'm not sure, but I can find out for you' or 'I'm not able to help with that, but I can connect you with someone who can.', 'Let me bring a colleague on the phone who can further assist us.'
+  - question: |
+      What could I say instead of "I don't know?"
+    answer: |
+      Rather than providing a statement without a resolution, ensure the customer that you're working towards a solution to their problem with a response like "Give me just one moment, and I can absolutely find that answer for you."
+  - question: |
+      How can I project confidence in resolving a customer's issue?
+    answer: |
+      Using strong words is one effective technique to present confidence and ensure that customers are happy with their service.
+- context: |
+    Journal prompt: Imagine you are meeting with a customer, and you notice their voice is louder than normal and their expression is angry. What can you do to relate to the customer?
+
+    Possible answer: Use empathetic statements to let the customer know you understand their frustration and let them know you are making it a priority to resolve the issue.
+
+    These are examples of statements that allow us to show empathy across differences when relating to the customer.
+
+    | Less empathetic                    | More empathetic                                                                                                      |
+    |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+    | Calm down. You're overthinking it. | From what I hear, you are feeling … Is that right?                                                                   |
+    | At least you still have ...        | This is a difficult situation and I think you've shown a lot of  courage and strength in how you're handling things. |
+    | Here's what I would do.            | Thank you for trusting me with this. It means a lot to me.                                                           |
+
+    Here are some things to consider when relating to the customer:
+
+    - Be relational, not transactional.
+    - Use welcoming language.
+    - Communicate with care.
+  questions_and_answers:
+  - question: |
+      What is a good thing to consider when relating to the customer?
+    answer: |
+      Use welcoming language.
+  - question: |
+      What is a good way to interact with a frustrated customer?
+    answer: |
+      Use empathetic language e.g. "From what I hear, you are feeling … Is that right?"
+  - question: |
+      What is a bad way to interact with a frustrated customer?
+    answer: |
+      Use unempathetic language e.g. "At least you still have ..."
+document_outline: |
+  Introduction to the financial services industry and the business of banking

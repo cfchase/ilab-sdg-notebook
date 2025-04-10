@@ -58,4 +58,4 @@ To build the container run
 `podman build -t quay.io/rh-aiservices-bu/sdg-notebook:$TAG .`
 
 To push the container to quay:
-`podman push quay.io/rh-aiservices-bu/sdg-notebook:$TAG .`
+`podman push quay.io/rh-aiservices-bu/sdg-notebook:$TAG `

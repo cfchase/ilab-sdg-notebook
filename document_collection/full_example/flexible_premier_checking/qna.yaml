@@ -1,0 +1,147 @@
+version: 3
+domain: Banking and finance Interest Checking
+created_by: James Harmison <jharmiso@redhat.com>
+seed_examples:
+- context: |
+    ## Parasol Financial Flexible Premier Checking
+    ### Detailed Policies - Overview of key policies and fees
+
+    ## Account information
+    |     |  |
+    | -------- | ------- |
+    | Opening Deposit   | $100 or more   |
+    | Interest Rate | This account earns interest at a variable rate. You can find current rate information at parasolfinancial.com, by calling the number on your account statement or visiting a financial center. |
+    | Monthly Maintenance Fee | $25.00 each month. You can avoid the Monthly Maintenance Fee when you meet ONE of the following requirements during each statement cycle: Maintain a minimum daily balance of $20,000 or more in your account OR Be a member of the Parasol Loyalty program. Learn more at parasolfinancial.com/loyalty-program. |
+
+    ## ATM fees
+    |     |  |  |
+    | -------- | ------- | ------- |
+    | Parasol Financial ATMs | No ATM fee | For deposits, withdrawals, transfers or balance inquiries |
+    | Non-Parasol Financial ATMs | $2.50 | In the U.S., plus any fee charged by the ATM's operator |
+    | | $5.00 | Outside the U.S., plus any fee charged by the ATM's operator |
+
+  questions_and_answers:
+  - question: |
+      What is the minimum amount when opening an account?
+    answer: |
+      The minimum ammount to open an account is $100 or more.
+  - question: |
+      Does this account type earn any interest?
+    answer: |
+      Yes, the this account earns interest at a variable rate. You can find current rate information at parasolfinancial.com, by calling the number on your account statement or visiting a financial center.
+  - question: |
+      Is there an account monthly maintenance fee ?
+    answer: |
+      Yes, there is an account monthly maintenance fee of $25.00. But you can avoid the Monthly Maintenance Fee when you meet ONE of the following requirements during each statement cycle: Maintain a minimum daily balance of $20,000 or more in your account OR Be a member of the Parasol Loyalty program. Learn more at parasolfinancial.com/loyalty-program.
+- context: |
+    ## Overdraft policy
+
+    - To help you avoid fees, we won't authorize ATM withdrawals or everyday debit card purchases when you don't have enough money in your account at the time of the transaction.
+    - When we determine you don't have enough money in your account to cover other items such as checks or scheduled payments, we'll either authorize and pay the item and overdraw your account (an overdraft item), 1 or decline or return the item unpaid (a returned item). When this happens, you may be charged a fee. See details below.
+    - We offer two overdraft setting options for how you want us to process your other transactions.
+
+    ## Overdraft settings and fees
+
+    ### Option 1: Standard
+
+    - This setting will be automatically applied to your account.
+
+    - Your checks and scheduled payments may be paid, causing an overdraft.
+    - You may be charged an Overdraft Item Fee if you overdraw your account.
+    - If we return an item unpaid, we won't charge a fee, but the payee may.
+
+    |     |  |  |
+    | -------- | ------- | ------- |
+    | Overdraft Item Fee (We won't charge you more than 2 of these fees per day.) | $10.00 per item | We won't charge this fee: If your account is overdrawn by $1 or less OR For items that are $1 or less OR On items that were authorized when your account had enough funds available OR On ACH resubmissions labeled by the merchant as 'RETRY PYMT' or 'REDEPCHECK' |
+
+    ### Option 2: Decline All - You can choose this setting if you would like to have your transactions declined or returned unpaid when you don't have enough money. With this setting you can avoid Overdraft Item Fees.
+  questions_and_answers:
+  - question: |
+      Is there a policy to help me avoid overdraft fees on my Flexible Premier Checking account?
+    answer: |
+      To help you avoid fees, we won't authorize ATM withdrawals or everyday debit card purchases when you don't have enough money in your account at the time of the transaction.
+  - question: |
+      What are my options to elect for overdraft settings?
+    answer: |
+      There are two overdraft setting options available, Standard and Decline All. You can ask more about the details of those options, if you need clarification.
+  - question: |
+      If I don't pick an overdraft setting, which one applies?
+    answer: |
+      If you don't elect to change your overdraft setting options, the Standard setting will be automatically applied to your account.
+- context: |
+    ## When your deposits are available
+
+    - Cash, direct deposits, wire transfers: On the day we receive them.
+    - Checks: Usually the next business day, if deposited before the financial center or ATM cutoff time.
+    - Mobile Check Deposit: Usually the next business day if deposited by applicable cutoff times. Please refer to Deposit Checks , then Help in the Mobile Banking app for additional details and terms and conditions.
+    - If we place a hold on your deposit, we'll let you know the hold reason and when your funds will be available. This is typically provided at the time of deposit but may also be mailed later. Deposits greater than $5,525 and checks deposited within the first 30 days of account opening may be held longer.
+
+    ## How we post transactions
+
+    The way we post transactions impacts your account balance. If there's not enough available money in your account to cover all of your transactions, the posting order can impact the number of overdraft fees you incur. At the end of each business day, we'll group transactions received that day into categories before posting them. Below are the most common categories, and common transaction types in each, in the order that they generally post to your account. Keep in mind that transactions that are still processing may lower your available balance.
+  questions_and_answers:
+  - question: |
+      When will cash deposits be available?
+    answer: |
+      Cash, direct deposits, wire transfers, will be available on the day we receive them.
+  - question: |
+      When will check deposits be available?
+    answer: |
+      Checks will be usually available in the next business day, if deposited before the financial center or ATM cutoff time.
+  - question: |
+      When will Mobile Check Deposits be available?
+    answer: |
+      Usually Mobile Check Deposit will be available in the next business day if deposited by applicable cutoff times. Please refer to Deposit Checks, then Help in the Mobile Banking app for additional details and terms and conditions.
+- context: |
+    ## Get the most out of your account
+
+    Review all the features and benefits of your new account at parasolfinancial.com/quickstart
+
+    For questions, schedule an appointment to visit a financial center at parasolfinancial.com/appointments
+
+    Call us at 800.867.5309
+
+    Additional fee waivers may be available to Parasol Financial Private Bank and qualified Parasol Wealth Management  clients. Please contact your advisor to learn more. Parasol Wealth Management Services Incorporated (also referred to as 'PWMS' or 'Parasol') makes available certain investment products sponsored, managed, distributed or provided by companies that are affiliates of Parasol Financial Corporation ('Parasol Inc.'). PWMS is a registered broker-dealer, registered investment advisor, Member SIPC and a wholly owned subsidiary of Parasol Inc.
+
+    Investment products:
+
+    Are Not FDIC Insured
+
+    Are Not Bank Guaranteed
+
+    May Lose Value
+
+    Banking products are provided by Parasol Financial, N.A. and affiliated banks, Members FDIC and wholly owned subsidiaries of Parasol Financial Corporation.
+  questions_and_answers:
+  - question: |
+      Is there a specific number that I can call for help?
+    answer: |
+      Yes, you can call us any time at 800.867.5309.
+  - question: |
+      Is there a website to review features and benefits of an account?
+    answer: |
+      Yes, it's parasolfinancial.com/quickstart
+  - question: |
+      How do you schedule an appointment with Parasol Financial?
+    answer: |
+      You can schedule an appointment to visit a financial center at parasolfinancial.com/appointments
+- context: |
+    | International wire transfers                                                                                                                                                                                                                                                                                                                                                                                                                                    | $15.00                                                                                                                                                                                                                                                                                                                                                                                                                                                          | For each incoming wire transfer: If received in a foreign currency, it will be converted into U.S. Dollars using the applicable exchange rate determined solely by us.                                                                                                                                                                                                                                                                                          |
+    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | No wire fee                                                                                                                                                                                                                                                                                                                                                                                                                                                     | For each outgoing wire transfer sent in foreign currency. Please be advised, exchange rate markups will apply. See below.                                                                                                                                                                                                                                                                                                                                       |
+    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | $45.00                                                                                                                                                                                                                                                                                                                                                                                                                                                          | For each outgoing wire transfer sent in U.S. Dollars                                                                                                                                                                                                                                                                                                                                                                                                            |
+    | | | For international wire transfers, other fees may also apply, including those charged by recipient's financial institution, foreign taxes, and other fees that are part of the wire transfer process. We profit from markups associated with the currency conversion included in our exchange rate (determined solely by us). Before sending in foreign currency, you should consider factors that impact the total cost or the amount available after transfer. |
+  questions_and_answers:
+  - question: |
+      Are there any other fees for international wire transfers?
+    answer: |
+      Yes other fees may apply, including those charged by recipient's financial institution.
+  - question: |
+      Do foreign taxes apply to international wire transfers?
+    answer: |
+      Yes, they may do. For international wire transfers, other fees may also apply, including those charged by recipient's financial institution, foreign taxes, and other fees that are part of the wire transfer process
+  - question: |
+      Is there anything else to consider before sending an international wire transfer?
+    answer: |
+      Before sending in foreign currency, you should consider factors that impact the total cost or the amount available after transfer.
+document_outline: |
+  Details of Parasol Financial Flexible Premier Checking.

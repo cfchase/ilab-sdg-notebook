@@ -48,3 +48,14 @@ Follow the instructions in the notebook.
 
 Once you are complete, you should have a file `sdg_demo_output\phase10_train.jsonl` which is the generated training data for InstructLab alignment
 
+# Building the container
+
+Set the TAG env variable 
+
+export TAG=$(./get-tag.sh)
+
+To build the container run 
+`podman build -t quay.io/rh-aiservices-bu/sdg-notebook:$TAG .`
+
+To push the container to quay:
+`podman push quay.io/rh-aiservices-bu/sdg-notebook:$TAG .`
